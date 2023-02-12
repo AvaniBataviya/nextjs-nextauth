@@ -1,4 +1,5 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# O365 login in Next js using NextAuth.js
+This repository serves to demonstrate an example of *O356* login in [Next.js](https://nextjs.org/) using NextAuth.js(https://next-auth.js.org/)
 
 ## Getting Started
 
