@@ -1,5 +1,5 @@
 # O365 login in Next js using NextAuth.js
-This repository serves to demonstrate an example of *O356* login in [Next.js](https://nextjs.org/) using NextAuth.js(https://next-auth.js.org/)
+This repository serves to demonstrate an example of *O356* login in [Next.js](https://nextjs.org/) using [NextAuth.js](https://next-auth.js.org/)
 
 ## Getting Started
 
