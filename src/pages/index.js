@@ -1,9 +1,7 @@
 import React from 'react';
+import { signIn } from 'next-auth/react';
 import Head from 'next/head';
-import { Inter } from '@next/font/google';
 import styles from '@/styles/Home.module.css';
-
-const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   return (
@@ -15,8 +13,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div>
-          <h2 className={inter.className}>Next auth</h2>
+        <div className={styles.loginCard}>
+          <h2>Next auth app</h2>
+          <h5>Login with</h5>
+          <button
+            className={styles.actionButton}
+            onClick={() => {
+              signIn('azure-ad', { callbackUrl: '/dashboard' }, { prompt: 'login' });
+            }}
+          >
+            Sign in with O365
+          </button>
         </div>
       </main>
     </>
