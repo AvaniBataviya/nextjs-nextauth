@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, create `.env.local` file at root of project and add all variables available in `.env.example` then run the development server:
 
 ```bash
 npm run dev
@@ -21,6 +21,9 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Output
+[O365 login using next auth.webm](https://user-images.githubusercontent.com/35954780/218313826-4a197c06-c4d8-4830-90a1-220d59691df2.webm)
 
 ## Learn More
 
